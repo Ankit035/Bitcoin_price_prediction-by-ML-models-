@@ -39,10 +39,10 @@ This project explores various statistical and machine learning approaches to for
 - Feature scaling using `StandardScaler`
 - Granger causality & impulse response for interpretability
 
-### 6. Hybrid SARIMAX + XGBoost
-- SARIMAX modeled linear & seasonal components
+### 6. Hybrid SARIMA + XGBoost
+- SARIMA modeled linear & seasonal components
 - Residuals used to train XGBoost for non-linear components
-- Final forecast = SARIMAX forecast + XGBoost residual correction
+- Final forecast = SARIMA forecast + XGBoost residual correction
 
 ### 7. Ensemble Model
 - Combined forecasts from Hybrid, ARIMA, and VAR
