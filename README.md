@@ -1,6 +1,6 @@
 # 📈 Bitcoin Price Forecasting using Time Series Models
 
-This project explores various statistical and machine learning approaches to forecast Bitcoin closing prices. The goal is to compare traditional time series models like ARIMA and VAR with more advanced techniques like Hybrid SARIMAX + XGBoost and Ensembles.
+This project explores various statistical and machine learning approaches to forecast Bitcoin closing prices. The goal is to compare traditional time series models like ARIMA and VAR with more advanced techniques like Hybrid SARIMA + XGBoost and Ensembles.
 
 ---
 
@@ -56,11 +56,11 @@ This project explores various statistical and machine learning approaches to for
 
 ## ✅ Best Performing Model
 
-> 🏆 **Hybrid SARIMAX + XGBoost** outperformed all individual models in terms of accuracy and generalization.
+> 🏆 **Hybrid SARIMA + XGBoost** outperformed all individual models in terms of accuracy and generalization.
 
 **Why it works best:**
-- SARIMAX handles trends and seasonality.
-- XGBoost captures non-linear residual patterns left by SARIMAX.
+- SARIMA handles trends and seasonality.
+- XGBoost captures non-linear residual patterns left by SARIMA.
 - Cross-validation confirms its robustness across time windows.
 
 ---
