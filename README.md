@@ -69,7 +69,7 @@ This project explores various statistical and machine learning approaches to for
 
 | Model                     | RMSE (Test)   | Relative Score (%) |
 |--------------------------|---------------|---------------------|
-| 🏅 **Hybrid (SARIMAX + XGB)** | **$8,481.54**     | — (Best)            |
+| 🏅 **Hybrid (SARIMA + XGB)** | **$8,481.54**     | — (Best)            |
 | VAR (Price + Volume)     | $11,415.40     | 34.8%               |
 | VAR (Full Features)      | $11,581.50     | 33.8%               |
 | ARIMA(4,1,0)             | $12,259.82     | 30.0%               |
